@@ -1,0 +1,27 @@
+.accordion {
+    --bs-accordion-active-bg: #D1D7DC;
+}
+
+.accordion-button,
+accordion-button:not(.collapsed) {
+    color: #000000;
+}
+
+.nav-tabs .nav-link {
+    color: #000;
+}
+
+
+.nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs {
+    font-weight: 500;
+}
+
+.subsection:not(:first-child) {
+    margin-top: 20px;
+}
