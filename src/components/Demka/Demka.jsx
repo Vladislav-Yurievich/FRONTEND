@@ -139,28 +139,28 @@ const Demka = () => {
                                     <div className="accordion-body">
 
                                         <div className="subsection">
-                                            <label for="check">
+                                            <label htmlFor="check">
                                                 <input type="checkbox" className="custom-control custom-checkbox" id="check" /> 1. Кто такой фронтенд разработчик<br />
                                                 <span style={{ color: "#6A6F73", marginLeft: "25px" }}><img src={tvIcon} alt="tvIcon" /> 1 мин</span>
                                             </label>
                                         </div>
 
                                         <div className="subsection">
-                                            <label for="check2">
+                                            <label htmlFor="check2">
                                                 <input type="checkbox" className="custom-control custom-checkbox" id="check2" /> 2. Инструменты и этапы разработки <br />
                                                 <span style={{ color: "#6A6F73", marginLeft: "25px" }}><img src={tvIcon} alt="tvIcon" /> 1 мин</span>
                                             </label>
                                         </div>
 
                                         <div className="subsection">
-                                            <label for="check3">
+                                            <label htmlFor="check3">
                                                 <input defaultChecked type="checkbox" className="custom-control custom-checkbox" id="check3" /> 3. Знакомство с html. Теги и атрибуты. <br />
                                                 <span style={{ color: "#6A6F73", marginLeft: "25px" }}><img src={tvIcon} alt="tvIcon" /> 1 мин</span>
                                             </label>
                                         </div>
 
                                         <div className="subsection">
-                                            <label for="check4">
+                                            <label htmlFor="check4">
                                                 <input type="checkbox" className="custom-control custom-checkbox" id="check4" /> 4. Знакомство с редактором. Первая страница. <br />
                                                 <span style={{ color: "#6A6F73", marginLeft: "25px" }}><img src={tvIcon} alt="tvIcon" /> 1 мин</span>
                                             </label>
@@ -276,7 +276,6 @@ const Demka = () => {
                                                 <li>Верстка проекта по макету</li>
                                             </ul>
 
-
                                             <p className='fw-semibold mb-2 mt-3'>Существуют ли у курса какие-либо (предварительные) требования?</p>
                                             <ul>
                                                 <li>Желание и наличие компьютера.</li>
@@ -291,10 +290,6 @@ const Demka = () => {
                                         </div>
                                     </div>
                                     <hr />
-
-                                    <div className="col-12 d-flex">
-
-                                    </div>
 
 
                                 </Tab>
